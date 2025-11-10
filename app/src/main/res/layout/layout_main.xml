@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senior Mode"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnAccessibilitySettings"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Accessibility Settings"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="Open Accessibility Settings"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnContacts"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Contacts"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="Open Contacts"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnPhone"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Phone"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="Open Dialer"
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="@android:color/white" />
+
+        <!-- In-app Back button removed (navigation relies on system gestures / overlay handle) -->
+
+
+
+        <!-- Large text and high-contrast options removed: these toggles were non-functional -->
+        <Button
+            android:id="@+id/btnEmergency"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Emergency"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="Emergency Call"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tvTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tip: Enable the accessibility service to get simplified UI actions and automatic button confirmations where supported."
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="4dp" />
+
+        <Button
+            android:id="@+id/btnToggleOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Enable overlay" />
+
+    </LinearLayout>
+
+</ScrollView>

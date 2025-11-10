@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Senior Mode</string>
+    <string name="accessibility_service_description">Simplified interface to help seniors use the phone</string>
+</resources>
